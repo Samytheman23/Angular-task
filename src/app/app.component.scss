@@ -1,0 +1,17 @@
+.gallery-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+.load-more {
+    width: 100%;
+    background: #7f63c1;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    cursor: pointer;
+}
